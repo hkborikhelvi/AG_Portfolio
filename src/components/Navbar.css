@@ -1,0 +1,53 @@
+.navbar-toggler {
+  border: none !important;
+  outline: 0px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+.nav {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 80px;
+}
+
+.nav div div ul li {
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.nav div div ul li a {
+  text-decoration: none;
+  color: #292930;
+  transition: 0.3s in-out;
+}
+
+.nav div div ul li a:hover {
+  color: #007aff;
+}
+
+.nav div div ul li a:hover::before,
+.nav div div ul li a:active::before {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #ffdc60;
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+}
+
+.nav div div ul li a:hover::after,
+.nav div div ul li a:active::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #5956e8;
+  position: absolute;
+  bottom: -4px;
+  right: 0px;
+}

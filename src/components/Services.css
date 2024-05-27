@@ -1,0 +1,36 @@
+.serContent div span {
+  text-transform: uppercase;
+}
+.selfCard {
+  background-color: #424245;
+  border-radius: 25px;
+  max-width: 352px !important;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cardContent h5 {
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.cardContent p {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #d0d0d0;
+}
+
+.cardContent a {
+  padding: 10px 0;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px 69px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cardContent a:hover {
+  background-color: #ffdc60;
+  color: #292930;
+}

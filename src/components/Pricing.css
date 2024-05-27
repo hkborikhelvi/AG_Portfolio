@@ -1,0 +1,10 @@
+.pricing h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.pricingCard {
+  width: 389px;
+  height: 554px;
+  border: 1px solid #e2e2e2;
+  background-color: #f6f6f6;
+}

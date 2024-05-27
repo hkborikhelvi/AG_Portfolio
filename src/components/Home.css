@@ -1,0 +1,35 @@
+.homeBG {
+  background-image: url(https://ik.imagekit.io/abzkdd8q5/Images/heroSection/Background.png?updatedAt=1716563716123);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeContent > span {
+  text-transform: uppercase;
+}
+
+.homeContent h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.homeContent h2 span {
+  color: #5956e8;
+}
+.homeContent p {
+  font-size: 18px;
+}
+
+.homeImage {
+  align-self: center;
+  text-align: end;
+  /* width: 555px; */
+}
+.homeImage img {
+  width: 555px;
+}
